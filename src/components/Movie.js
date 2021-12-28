@@ -9,7 +9,6 @@ import BreadCrumb from './BreadCrumb/breadcrumb';
 import MovieInfo from './MovieInfo/movieInfo';
 import MovieInfoBar from './MovieInfoBar/movieInfoBar';
 import Actor from './Actor/actor';
-import { act } from 'react-dom/test-utils';
 
 
 const Movie = () => {

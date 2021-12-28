@@ -43,6 +43,7 @@ export const useFetchMovie = () => {
         }
         setState(intialState);
         fetchMovies(1, searchTerm);
+    // eslint-disable-next-line react-hooks/exhaustive-deps
     }, [searchTerm]);
 
     useEffect(() => {
